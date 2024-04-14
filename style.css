@@ -1,3 +1,16 @@
+.head {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: system-ui, BlinkMacSystemFont;
+}
+
+h1 { 
+    Font-size: 50px;
+    /* margin-bottom: -20px; */
+}
+
+/* ,  -apple-system, Avenir Next, Avenir, Segoe UI, Lucida Grande, Helvetica Neue, Helvetica, Fira Sans, Roboto, Noto, Droid Sans, Cantarell, Oxygen, Ubuntu, Franklin Gothic Medium, Century Gothic, Liberation Sans, sans-serif; */
+
 .sideBar-V{
 width: 350px;
 background-color: yellow;
@@ -52,31 +65,50 @@ padding: 5px;
 }
 
 
-.container {
+.content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
   }
   
-  .box {
-    /* For the first row */
-    width: 75%; /* 3/4 of the row */
-   background-color:#e66767 ;
-   padding: 20px;
+.box {
+    border: 5px solid red;
+    width: 200px;
+    height: 200px;
+    background-color:#e66767 ;
+    margin: 10px;
+    border-radius: 35px;
 
   }
-  
-  .box:nth-child(2) {
-    /* For the first row, second box */
-    width: 25%; /* 1/4 of the row */
-  }
-  
-  /* For the second row */
-  .box:nth-child(3),
-  .box:nth-child(4) {
-    width: 50%; /* 50% of the row */
-  }
-  
-  /* For the third row */
-  .box:nth-child(5) {
-    width: 100%; /* 100% of the row */
+
+.bbox {
+    border: 5px solid red;
+    width: 400px;
+    height: 200px;
+    background-color:#e66767 ;
+    margin: 10px;
+    border-radius: 35px;
+
+}
+
+.wbox {
+    border: 5px solid red;
+    width: 630px;
+    height: 200px;
+    background-color:#e66767 ;
+    margin: 10px;
+    border-radius: 35px;
+
+}
+
+@media (width <= 675px) {
+    /* … */
+.box {
+    width: 400px;
+}
+.wbox {
+    width: 400px;
+}
+
   }

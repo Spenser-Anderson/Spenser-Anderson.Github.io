@@ -4,7 +4,6 @@
   // Get the element by its ID
   const dynamicTextElement = document.getElementById('dynamic-text');
 
-  // Function to update the text
   function updateText() {
     // Get the current text
     const currentText = dynamicTextElement.textContent;
@@ -22,8 +21,7 @@
     dynamicTextElement.textContent = nextWord;
   }
 
-  // Call the updateText function initially
   updateText();
 
-  // Set up an interval to call the updateText function every 9 seconds
+  // Interval to call the updateText function every 3 seconds
   setInterval(updateText, 3000);
