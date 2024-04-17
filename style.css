@@ -9,46 +9,28 @@ h1 {
     /* margin-bottom: -20px; */
 }
 
+ /* h3 {
+    padding: 15px;
+    width: 50%
+    
+}  */
+
+/* #me {
+    width: 350px;
+    float:left;
+} */
+
 /* ,  -apple-system, Avenir Next, Avenir, Segoe UI, Lucida Grande, Helvetica Neue, Helvetica, Fira Sans, Roboto, Noto, Droid Sans, Cantarell, Oxygen, Ubuntu, Franklin Gothic Medium, Century Gothic, Liberation Sans, sans-serif; */
+
+.bio {
+    
+}
 
 .sideBar-V{
 width: 350px;
 background-color: yellow;
 text-align: center;
 padding: 5px;
-}
-
-.profile-pic{
-    display: inline-block;
-    padding: 8px;
-    margin: auto;
-    border-radius: 50%;
-    background: linear-gradient(130deg, #ebf92a, #e66767);
-    background-size: 200% 200%;
-    animation: animated-gradient 2s linear infinite;
-}
-
-@keyframes animated-gradient{
-    25%{
-        background-position: left bottom;
-    }
-    50%{
-        background-position: right bottom;
-    }
-    75%{
-        background-position: right top;
-    }
-    100%{
-        background-position: left top;
-    }
-
-}
-
-.profile-pic img{
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
 
