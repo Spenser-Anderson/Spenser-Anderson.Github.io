@@ -4,9 +4,13 @@
     font-family: system-ui, BlinkMacSystemFont;
 }
 
-h1 { 
-    Font-size: 50px;
-    /* margin-bottom: -20px; */
+h1:first-child{
+    margin-bottom: -65px;
+    font-size: 50px;
+}
+
+#dynamic-text { 
+    Font-size: 85px;
 }
 
  /* h3 {
@@ -23,7 +27,7 @@ h1 {
 /* ,  -apple-system, Avenir Next, Avenir, Segoe UI, Lucida Grande, Helvetica Neue, Helvetica, Fira Sans, Roboto, Noto, Droid Sans, Cantarell, Oxygen, Ubuntu, Franklin Gothic Medium, Century Gothic, Liberation Sans, sans-serif; */
 
 .bio {
-    
+    margin: 25px;
 }
 
 .sideBar-V{
@@ -35,14 +39,14 @@ padding: 5px;
 
 
 
-.sm a{
+.sm i{
     color:#000000;
     width:56px;
     font-size: 25px;
     transition: .3s linear;
 }
 
-.sm a:hover{
+.sm i:hover{
     color: #e66767;
 }
 
