@@ -87,10 +87,10 @@ padding: 5px;
     border-radius: 35px;
 }
 
-.clickabilty {
+.wbox .clickabilty {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 630px;
+    height: 200px;
     z-index: 50;
 }
 
