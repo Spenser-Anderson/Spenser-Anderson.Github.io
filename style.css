@@ -118,12 +118,26 @@ padding: 5px;
 
 @media (width <= 675px) {
     /* … */
-.box {
+
+html, body {
+    position:relative;
+    overflow-x: hidden;
+    
+}
+
+
+.h3Box {
+    margin: auto;
+    width: 375px;
+}
+
+    .box {
     width: 400px;
 }
 .wbox {
     width: 400px;
 }
+
 
 #fd {
 background-image: url("/images/FD-S.png");
