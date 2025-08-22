@@ -108,6 +108,10 @@ padding: 5px;
 }
 
 
+.hidden {
+    display: none;
+}
+
 
 /* .wbox img{
     width: 100%;
@@ -125,13 +129,19 @@ html, body {
     
 }
 
+#dynamic-verb { 
+    font-size: 65px;
+    padding-top: 20px;
+}
+
 
 .h3Box {
     margin: auto;
-    width: 350px;
+    padding: 2px;
+    width: 300px;
 }
 
-    .box {
+.box {
     width: 400px;
 }
 .wbox {
