@@ -26,6 +26,12 @@ h1:first-child{
 
 /* ,  -apple-system, Avenir Next, Avenir, Segoe UI, Lucida Grande, Helvetica Neue, Helvetica, Fira Sans, Roboto, Noto, Droid Sans, Cantarell, Oxygen, Ubuntu, Franklin Gothic Medium, Century Gothic, Liberation Sans, sans-serif; */
 
+.h3Box {
+    margin: auto;
+    width: 650px;
+}
+
+
 .bio {
     margin: 25px;
 }
