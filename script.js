@@ -1,5 +1,5 @@
   // Array of verbs
-  const verbs = ['DRAWING', 'BUILDING', 'CODING', 'DESIGNING'];
+  const verbs = ['DRAWING', 'BUILDING', 'CODING', 'DESIGNING','DREAMING'];
 
   // Get the verb element by its ID
   const dynamicTextElement = document.getElementById('dynamic-verb');

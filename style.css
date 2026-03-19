@@ -1,4 +1,8 @@
-.about {
+body{
+    background: #faf9f6;
+}
+
+.wholePage {
     margin-bottom: 20px;
     text-align: center;
     font-family: system-ui, BlinkMacSystemFont;
@@ -7,11 +11,17 @@
 h1:first-child{
     margin-bottom: -65px;
     font-size: 50px;
+    color: #1a1a1a ;
 }
 
 #dynamic-verb { 
     Font-size: 85px;
+    color: #c45c3e ;
+
 }
+
+
+
 
  /* h3 {
     padding: 15px;
@@ -46,7 +56,7 @@ padding: 5px;
 
 
 .sm i{
-    color:#000000;
+    color:#1a1a1a;
     width:56px;
     font-size: 25px;
     transition: .3s linear;
@@ -65,7 +75,7 @@ padding: 5px;
   }
   
 .box {
-    border: 5px solid red;
+    border: 5px solid #e5e3de;
     width: 200px;
     height: 200px;
     background-color:#e66767 ;
@@ -75,7 +85,7 @@ padding: 5px;
   }
 
 .bbox {
-    border: 5px solid red;
+    border: 5px solid #e5e3de;
     width: 400px;
     height: 200px;
     background-color:#e66767 ;
@@ -85,7 +95,7 @@ padding: 5px;
 }
 
 .wbox {
-    border: 5px solid red;
+    border: 5px solid #e5e3de;
     width: 630px;
     height: 200px;
     background-color:#e66767 ;
