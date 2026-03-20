@@ -6,20 +6,32 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    
     margin-bottom: 20px;
     font-family: system-ui, BlinkMacSystemFont;
 }
 
+.headliner {
+    border: 5px solid #e5e3de;
+    border-radius: 35px;
+    padding: 10px;
+    width: 620px;
+}
+
 h1:first-child{
+    text-align: center;
     margin-bottom: -65px;
     font-size: 50px;
     color: #1a1a1a ;
+    margin-top: -10px;
+    
 }
 
 #dynamic-verb { 
     Font-size: 85px;
     color: #c45c3e ;
+    text-align: center;
+    margin-bottom: -10px;
 
 }
 
@@ -33,6 +45,7 @@ h1:first-child{
 .bio {
     /* align-items: center; */
     /* justify-content: center; */
+    text-align: center;
     max-width: 620px;
     margin: 25px;
     padding: 10px;
